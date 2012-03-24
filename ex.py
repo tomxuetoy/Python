@@ -1,9 +1,6 @@
-class MyException(Exception):pass # pass: define a empty class
+class MyException(Exception):pass
 try:
-    print "normal code here"
-except MyException:
+    raise MyException,", and some additional data"
+except MyException,data2:   # here 'data2' is the placeholder for above sentence
     print "MyException encoutered"
-else:
-    print "No exception"
-finally:
-    print "Arrive finally"
+    print data2
