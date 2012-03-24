@@ -4,3 +4,5 @@ try:
     raise MyException             # it is empty, so it won't be raised in fact
 except MyException:
     print "MyException encoutered"
+finally:
+    print "Arrive finally"
