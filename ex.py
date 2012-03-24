@@ -1,8 +1,9 @@
 class MyException(Exception):pass # pass: define a empty class
 try:
-    #some code here
-    raise MyException             # it is empty, so it won't be raised in fact
+    print "normal code here"
 except MyException:
     print "MyException encoutered"
+else:
+    print "No exception"
 finally:
     print "Arrive finally"
