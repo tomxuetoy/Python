@@ -26,7 +26,7 @@ scrollbar = Scrollbar(root, orient=VERTICAL)
 
 listbox = Listbox(root, yscrollcommand=scrollbar.set)
 
-scrollbar.configure(command=listbox.yview)
+scrollbar.config(command=listbox.yview)
 
 text.pack()
 button1.pack()
