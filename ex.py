@@ -1,6 +1,8 @@
-import random
+import hashlib
 
-# A md5-hash is just a 128-bit value
-hash = random.getrandbits(128)
+input_string = raw_input() # added by Tom Xue
+m = hashlib.md5()
+m.update(input_string)
 
-print "hash value: %032x" % hash
+print m.digest()
+print m.hexdigest() 
