@@ -8,3 +8,7 @@ class.py
 
 date-time.py
     to show how to operate datetime API: now & ctime
+
+
+exception.py
+    to show how to handle exception in Python
