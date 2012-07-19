@@ -1,0 +1,6 @@
+basic.py
+    to show a basic Python program
+
+
+class.py
+	to show to make class: (1) self: additional first parameter which means the object itself (2) __init__: run first and for initialization
