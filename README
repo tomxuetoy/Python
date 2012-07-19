@@ -7,6 +7,14 @@ GUI_wxPython.py
 	a basic wxPython program
 
 
+MD5-hash.py
+	to generate a MD5-hash from input string
+	
+	
+128-bit_hash.py
+	to show how to generate a 128-bit hash (MD5-hash)
+
+
 basic.py
     to show a basic Python program
 
