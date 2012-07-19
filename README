@@ -1,0 +1,31 @@
+GUI_Tkinter.py
+	to show how to make a GUI program via Tkinter
+	to show a more complex gui application: function and object
+
+
+GUI_wxPython.py
+	a basic wxPython program
+
+
+basic.py
+    to show a basic Python program
+
+
+class.py
+	to show to make class: (1) self: additional first parameter which means the object itself (2) __init__: run first and for initialization
+
+
+date-time.py
+    to show how to operate datetime API: now & ctime
+
+
+exception.py
+    to show how to handle exception in Python
+
+
+fileIO.py
+    to show a basic file IO operation in Python
+
+
+function.py
+    to show how to make a self-defined function
