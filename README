@@ -3,6 +3,10 @@ GUI_Tkinter.py
 	to show a more complex gui application: function and object
 
 
+GUI_wxPython.py
+	a basic wxPython program
+
+
 basic.py
     to show a basic Python program
 
