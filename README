@@ -16,3 +16,7 @@ exception.py
 
 fileIO.py
     to show a basic file IO operation in Python
+
+
+function.py
+    to show how to make a self-defined function
